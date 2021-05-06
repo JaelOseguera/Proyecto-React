@@ -10,8 +10,35 @@ console.log("Valores: ",5,12,33,45,34,24,65,76,43);
 console.log("Suma: ",total);
 console.log("Promedio: ",numeros);
 
-console.log("----Triangulo----");
-function Triangulo(){
 
+function conversion(){
+    var dolares = 100;
+    var T_lempiras;
+    var T_euros;
+    var T_pesos;
+    
+    T_lempiras = dolares*24.13;
+    T_euros = dolares*0.83;
+    T_pesos = dolares * 20.28;
+    
+    console.log("Lempiras"+T_lempiras+" "+"Euros"+T_euros+" "+"pesos"+T_pesos+" ");
+    console.log("----Conversion----");
+    }
 
-}
+   
+    function triangulo(){
+        var a=3;
+        var b=4;
+        var c=5;
+    
+        if(a==b && a==c && b==c){
+            console.log("Equilatero");
+            }
+            else if (a==b && a==c && b==c){
+            console.log("Isosceles");    
+            }
+            else{
+            console.log("Escaleno");
+            }
+            console.log("----Triangulo----");
+    }
